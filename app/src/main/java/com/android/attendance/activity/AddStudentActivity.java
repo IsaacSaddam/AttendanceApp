@@ -31,8 +31,8 @@ public class AddStudentActivity extends Activity {
 	EditText textaddress;
 	Spinner spinnerbranch,spinneryear;
 	String userrole,branch,year;
-	private String[] branchString = new String[] { "cse"};
-	private String[] yearString = new String[] {"2","3","4"};
+	private String[] branchString = new String[] {"cse"};
+	private String[] yearString = new String[] {"1","2","3","4"};
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -137,6 +137,7 @@ public class AddStudentActivity extends Activity {
 					Intent intent =new Intent(AddStudentActivity.this,MenuActivity.class);
 					startActivity(intent);
 					Toast.makeText(getApplicationContext(), "student added successfully", Toast.LENGTH_SHORT).show();
+
 
 				}
 			}

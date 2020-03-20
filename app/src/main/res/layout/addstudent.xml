@@ -190,18 +190,18 @@
     android:layout_height="wrap_content"
     android:layout_marginTop="25dp"
     android:orientation="horizontal">
-        <Button
-            android:textSize="16sp"
-            android:id="@+id/Cancel_Button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+<!--        <Button-->
+<!--            android:textSize="16sp"-->
+<!--            android:id="@+id/Cancel_Button"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
 
-            android:background="@drawable/roundedtextview"
-            android:text="Cancel"
-            android:layout_weight="1"
-            android:layout_marginRight="5dp"
-            android:layout_gravity="center_horizontal"
-            android:textColor="#000" />
+<!--            android:background="@drawable/roundedtextview"-->
+<!--            android:text="Cancel"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_marginRight="5dp"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:textColor="#000" />-->
 
     <Button
         android:id="@+id/RegisterButton"
@@ -210,7 +210,7 @@
         android:background="@drawable/roundedtextview"
         android:text="Submit"
         android:layout_weight="1"
-        android:layout_marginLeft="5dp"
+
         android:textColor="#000"
         android:textSize="18dp" />
 </LinearLayout>
