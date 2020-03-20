@@ -21,7 +21,7 @@ public class ViewStudentActivity extends Activity {
 	Spinner spinnerbranch,spinneryear;
 	String userrole,branch,year;
 	private String[] branchString = new String[] { "cse"};
-	private String[] yearString = new String[] {"SE","TE","BE"};
+	private String[] yearString = new String[] {"1","2","3","4"};
 	
 	Button submit;
 	
