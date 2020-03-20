@@ -45,7 +45,7 @@ public class ViewStudentByBranchYear extends Activity {
 
 		for(StudentBean studentBean : studentBeanList)
 		{
-			String users = studentBean.getStudent_firstname()+","+studentBean.getStudent_lastname();
+			String users = studentBean.getStudent_lastname()+" "+studentBean.getStudent_firstname();
 					
 			studentList.add(users);
 			Log.d("users: ", users); 
