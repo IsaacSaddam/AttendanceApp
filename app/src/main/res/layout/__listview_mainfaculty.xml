@@ -24,7 +24,7 @@
         android:padding="10dp"
         android:textSize="28dp"
         android:textColor="#fff"
-        android:text="Students List"/>
+        android:text="Faculties List"/>
 
 </LinearLayout>
 

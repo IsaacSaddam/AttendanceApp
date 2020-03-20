@@ -19,7 +19,7 @@ import com.android.attendance.bean.FacultyBean;
 import com.android.attendance.db.DBAdapter;
 import com.example.androidattendancesystem.R;
 
-public class ViewFacultyActivity extends Activity {
+public class  ViewFacultyActivity extends Activity {
 
 	ArrayList<FacultyBean> facultyBeanList;
 	private ListView listView ;  
@@ -29,7 +29,7 @@ public class ViewFacultyActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.__listview_main);
+		setContentView(R.layout.__listview_mainf);
 
 		listView=(ListView)findViewById(R.id.listview);
 		final ArrayList<String> facultyList = new ArrayList<String>();
@@ -45,7 +45,7 @@ public class ViewFacultyActivity extends Activity {
 
 		}
 
-		listAdapter = new ArrayAdapter<String>(this, R.layout.view_faculty_list, R.id.labelF, facultyList);
+		listAdapter = new ArrayAdapter<String>(this, R.layout.view_student_list, R.id.label, facultyList);
 		listView.setAdapter( listAdapter ); 
 
 		listView.setOnItemLongClickListener(new OnItemLongClickListener() {
@@ -58,8 +58,8 @@ public class ViewFacultyActivity extends Activity {
 
 				AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(ViewFacultyActivity.this);
 
-				alertDialogBuilder.setTitle(getTitle()+"decision");
-				alertDialogBuilder.setMessage("Are you sure?");
+				alertDialogBuilder.setTitle(getTitle());
+				alertDialogBuilder.setMessage("Delete Faculty?");
 
 				alertDialogBuilder.setPositiveButton("Yes",new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog,int id) {
