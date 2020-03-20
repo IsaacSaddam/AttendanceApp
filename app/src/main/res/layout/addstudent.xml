@@ -9,7 +9,8 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="700dp" >
+        android:layout_height="700dp"
+        android:background="#232321">
 
         <TextView
             android:id="@+id/textViewFormName"
@@ -27,8 +28,8 @@
             android:id="@+id/textViewFirstName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
             android:layout_below="@+id/textViewFormName"
+            android:layout_alignParentLeft="true"
             android:layout_marginTop="10dp"
             android:text="firstname"
             android:textColor="#FFFFFF" />
@@ -39,8 +40,8 @@
             android:id="@+id/editTextFirstName"
             android:layout_width="match_parent"
             android:layout_height="25dp"
-            android:layout_alignParentLeft="true"
             android:layout_below="@+id/textViewFirstName"
+            android:layout_alignParentLeft="true"
             android:layout_marginTop="5dp"
             android:background="@drawable/roundedtextview"
             android:ems="10"
@@ -52,8 +53,8 @@
             android:id="@+id/textViewLastName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/editTextFirstName"
             android:layout_below="@+id/editTextFirstName"
+            android:layout_alignLeft="@+id/editTextFirstName"
             android:layout_marginTop="15dp"
             android:text="lastname"
             android:textColor="#FFFFFF" />
@@ -62,8 +63,8 @@
             android:id="@+id/editTextLastName"
             android:layout_width="match_parent"
             android:layout_height="25dp"
-            android:layout_alignLeft="@+id/textViewLastName"
             android:layout_below="@+id/textViewLastName"
+            android:layout_alignLeft="@+id/textViewLastName"
             android:layout_marginTop="5dp"
             android:background="@drawable/roundedtextview"
             android:ems="10"
@@ -97,8 +98,8 @@
             android:id="@+id/textViewUserName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/editTextPhone"
             android:layout_below="@+id/editTextPhone"
+            android:layout_alignLeft="@+id/editTextPhone"
             android:layout_marginTop="15dp"
             android:text="Address"
             android:textColor="#FFFFFF" />
@@ -128,8 +129,8 @@
             android:id="@+id/textViewPassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
             android:layout_below="@+id/textViewUserName"
+            android:layout_alignParentLeft="true"
             android:layout_marginTop="14dp"
             android:text=""
             android:textColor="#FFFFFF" />
@@ -138,8 +139,8 @@
             android:id="@+id/editTextaddr"
             android:layout_width="match_parent"
             android:layout_height="25dp"
-            android:layout_alignParentRight="true"
             android:layout_below="@+id/textViewUserName"
+            android:layout_alignParentRight="true"
             android:background="@drawable/roundedtextview"
             android:ems="10"
             android:hint="address" />
@@ -148,8 +149,8 @@
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
             android:layout_below="@+id/textViewPassword"
+            android:layout_alignParentLeft="true"
             android:text="Select dept"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textColor="#ffffff" />
@@ -158,15 +159,15 @@
             android:id="@+id/spinnerdept"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@+id/textView1" />
+            android:layout_below="@+id/textView1"
+            android:layout_alignParentLeft="true" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignRight="@+id/textView1"
             android:layout_below="@+id/spinnerdept"
+            android:layout_alignRight="@+id/textView1"
             android:text="Select year"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textColor="#ffffff" />
