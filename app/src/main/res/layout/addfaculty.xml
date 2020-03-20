@@ -6,7 +6,10 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="700dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+
         android:orientation="vertical"
         >
 
@@ -30,7 +33,7 @@
             android:text="Firstname"
             android:textColor="#FFFFFF" />
 
-        <requestFocus />
+<!--        <requestFocus />-->
 
         <EditText
             android:id="@+id/editTextFirstName"
@@ -50,7 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:padding="5dp"
-            android:text="lastname"
+            android:text="Lastname"
             android:textColor="#FFFFFF" />
 
         <EditText
@@ -67,18 +70,20 @@
             android:paddingLeft="15dp" />
 
         <TextView
-            android:id="@+id/textViewEmail"
+            android:id="@+id/textViewPhone"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text=""
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:text="Mobileno"
             android:textColor="#FFFFFF" />
 
         <EditText
             android:id="@+id/editTextPhone"
             android:layout_width="match_parent"
-            android:layout_height="25dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
+            android:padding="5dp"
             android:background="@drawable/roundedtextview"
             android:ems="10"
             android:hint="phone"
@@ -86,55 +91,41 @@
             android:paddingLeft="15dp" />
 
         <TextView
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
             android:id="@+id/textViewUserName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
             android:text="Address"
             android:textColor="#FFFFFF" />
 
-        <Button
-            android:id="@+id/Cancel_Button"
-            android:layout_width="100dp"
-            android:layout_height="30dp"
-            android:layout_marginRight="18dp"
-            android:background="@drawable/roundedbutton"
-            android:text="cancle"
-            android:textColor="#ffffff" />
-
-        <Button
-            android:id="@+id/RegisterButton"
-            android:layout_width="100dp"
-            android:layout_height="30dp"
-            android:layout_marginLeft="26dp"
-            android:layout_marginTop="51dp"
-            android:background="@drawable/roundedbutton"
-            android:text="submit"
-            android:textColor="#ffffff" />
-
-        <TextView
-            android:id="@+id/MessageforRegister"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="54dp"
-            android:text=""
-            android:textColor="#FFFFFF" />
-
         <EditText
-            android:id="@+id/editTextPassword"
+            android:id="@+id/editTextaddr"
             android:layout_width="match_parent"
-            android:layout_height="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
             android:background="@drawable/roundedtextview"
             android:ems="10"
-            android:hint="password"
-            android:inputType="textPassword"
-            android:paddingLeft="15dp" />
+            android:hint="address" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:text="Username"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#ffffff" />
 
         <EditText
             android:id="@+id/editTextUserName"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
             android:layout_width="match_parent"
-            android:layout_height="25dp"
-            android:layout_marginTop="59dp"
+            android:layout_height="wrap_content"
+
             android:background="@drawable/roundedtextview"
             android:ems="10"
             android:hint="username"
@@ -145,32 +136,35 @@
             android:id="@+id/textViewPassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="14dp"
-            android:text="password"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:text="Password"
             android:textColor="#FFFFFF" />
 
         <EditText
-            android:id="@+id/editTextaddr"
+            android:id="@+id/editTextPassword"
             android:layout_width="match_parent"
-            android:layout_height="25dp"
+            android:layout_height="wrap_content"
             android:background="@drawable/roundedtextview"
             android:ems="10"
-            android:hint="address" />
+            android:hint="password"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp" />
 
-        <TextView
-            android:id="@+id/textViewPhone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Mobileno"
-            android:textColor="#FFFFFF" />
 
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_width="wrap_content"
+
+        <Button
+            android:id="@+id/RegisterButton"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="18dp"
-            android:text="Username"
-            android:textAppearance="?android:attr/textAppearanceSmall"
+
+            android:layout_marginTop="25dp"
+            android:padding="5dp"
+            android:background="#4fff"
+            android:text="Submit"
+            android:textStyle="bold"
             android:textColor="#ffffff" />
 
     </LinearLayout>
