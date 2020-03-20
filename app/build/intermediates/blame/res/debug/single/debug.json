@@ -16,10 +16,6 @@
         "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\layout\\addfaculty.xml"
     },
     {
-        "merged": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_student_list.xml.flat",
-        "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\layout\\view_student_list.xml"
-    },
-    {
         "merged": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_menu.xml.flat",
         "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\layout\\menu.xml"
     },

@@ -65,8 +65,8 @@ public class ViewStudentByBranchYear extends Activity {
 
 				AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(ViewStudentByBranchYear.this);
 
-				alertDialogBuilder.setTitle(getTitle()+"decision");
-				alertDialogBuilder.setMessage("Are you sure?");
+				alertDialogBuilder.setTitle(getTitle()+"Alert");
+				alertDialogBuilder.setMessage("Delete Student?");
 
 				alertDialogBuilder.setPositiveButton("Yes",new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog,int id) {
