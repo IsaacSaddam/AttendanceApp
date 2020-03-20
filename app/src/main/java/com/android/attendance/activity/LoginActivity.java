@@ -112,10 +112,12 @@ public class LoginActivity extends Activity {
 					
 					if(facultyBean!=null)
 					{
+						Toast.makeText(getApplicationContext(), "Login successful", Toast.LENGTH_SHORT).show();
 						Intent intent = new Intent(LoginActivity.this,AddAttandanceSessionActivity.class);
 						startActivity(intent);
+
 						((ApplicationContext)LoginActivity.this.getApplicationContext()).setFacultyBean(facultyBean);
-						Toast.makeText(getApplicationContext(), "Login successful", Toast.LENGTH_SHORT).show();
+
 					}
 					else
 					{
