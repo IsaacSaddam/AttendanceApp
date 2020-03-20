@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#232321"
+    android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical"
 
     android:background="#232321">
@@ -10,20 +16,12 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:layout_marginTop="20sp">
-
-    <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-        android:layout_weight="0.2"
-        android:textSize="28dp"
-        android:textColor="#fff"
-    android:text="S.no"/>
+    android:layout_marginTop="10dp">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="0.7"
+        android:padding="10dp"
         android:textSize="28dp"
         android:textColor="#fff"
         android:text="Students List"/>
@@ -32,10 +30,13 @@
 
     <ListView
 
-        android:layout_margin="10dp"
+
     android:id="@+id/listview"
-        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
         android:layout_height="match_parent" >
     </ListView>
 
 </LinearLayout>
+</ScrollView>

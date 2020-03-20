@@ -42,17 +42,18 @@ public class ViewStudentByBranchYear extends Activity {
 		 year =getIntent().getExtras().getString("year");
 
 		studentBeanList=dbAdapter.getAllStudentByBranchYear(branch, year);
-
+		int i=1;
 		for(StudentBean studentBean : studentBeanList)
-		{int i=1;
-			String users = i+". "+studentBean.getStudent_lastname()+" "+studentBean.getStudent_firstname();
+		{
+			String users = i+"   "+studentBean.getStudent_lastname()+" "+studentBean.getStudent_firstname();
 					
 			studentList.add(users);
-			Log.d("users: ", users); 
+			Log.d("users: ", users);
+			i++;
 
 		}
 
-		listAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,studentList);
+		listAdapter = new ArrayAdapter<String>(this, R.layout.view_student_list, R.id.label, studentList);
 		listView.setAdapter( listAdapter ); 
 
 		listView.setOnItemLongClickListener(new OnItemLongClickListener() {
@@ -81,7 +82,7 @@ public class ViewStudentByBranchYear extends Activity {
 						for(StudentBean studentBean : studentBeanList)
 						{
 							String users = " FirstName: " + studentBean.getStudent_firstname()+"\nLastname:"+studentBean.getStudent_lastname();
-							studentList.add(users);
+							//studentList.add(users);
 							Log.d("users: ", users); 
 
 						}

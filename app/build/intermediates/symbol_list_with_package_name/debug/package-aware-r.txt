@@ -165,6 +165,7 @@ id icon_group
 id info
 id invisible
 id italic
+id label
 id labelA
 id labelAttendance
 id labelAttendancePerStudent
@@ -249,6 +250,7 @@ layout test_main
 layout view_attendance_list
 layout view_attendance_list_per_student
 layout view_faculty_list
+layout view_student_list
 layout viewstudent
 menu main
 string action_settings
