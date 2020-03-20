@@ -48,8 +48,8 @@ public class AddAttandanceSessionActivity<AddAttandanceActivity> extends Activit
 	String year = "SE";
 	String subject = "SC";
 
-	private String[] branchString = new String[] { "cse"};
-	private String[] yearString = new String[] {"SE","TE","BE"};
+	private String[] branchString = new String[] { "CSE","ECE","ME","CE","EEE"};
+	private String[] yearString = new String[] {"1","2","3","4"};
 	private String[] subjectSEString = new String[] {"SC","MC"};
 	private String[] subjectTEString = new String[] {"GT","CN"};
 	private String[] subjectBEString = new String[] {"DS","NS"};
