@@ -17,7 +17,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="82dp"
         android:layout_marginTop="43dp"
-        android:text="Login here.."
+        android:text="Login here."
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <EditText
