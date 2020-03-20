@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AttendanceApp.iml" filepath="$PROJECT_DIR$/AttendanceApp.iml" group="AttendanceApp" />
+      <module fileurl="file://$PROJECT_DIR$/app/AttendanceApp-app.iml" filepath="$PROJECT_DIR$/app/AttendanceApp-app.iml" group="AttendanceApp/app" />
+      <module fileurl="file://$PROJECT_DIR$/Desktop-AttendanceApp.iml" filepath="$PROJECT_DIR$/Desktop-AttendanceApp.iml" group="AttendanceApp" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="AttendanceApp/app" />
     </modules>
   </component>
