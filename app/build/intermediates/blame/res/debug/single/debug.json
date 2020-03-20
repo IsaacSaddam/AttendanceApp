@@ -36,16 +36,16 @@
         "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\layout\\viewstudent.xml"
     },
     {
-        "merged": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_test_main.xml.flat",
-        "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\layout\\test_main.xml"
+        "merged": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_listview_main.xml.flat",
+        "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\layout\\listview_main.xml"
     },
     {
         "merged": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_attendance_list.xml.flat",
         "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\layout\\view_attendance_list.xml"
     },
     {
-        "merged": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_listview_main.xml.flat",
-        "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\layout\\listview_main.xml"
+        "merged": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_test_main.xml.flat",
+        "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\layout\\test_main.xml"
     },
     {
         "merged": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_addstudent.xml.flat",
@@ -88,6 +88,10 @@
         "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\layout\\__listview_main.xml"
     },
     {
+        "merged": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\layout___listview_mainfaculty.xml.flat",
+        "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\layout\\__listview_mainfaculty.xml"
+    },
+    {
         "merged": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_calendar_icon.png.flat",
         "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\drawable-hdpi\\calendar_icon.png"
     },
@@ -98,9 +102,5 @@
     {
         "merged": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_login.xml.flat",
         "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\layout\\login.xml"
-    },
-    {
-        "merged": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_faculty_list.xml.flat",
-        "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\layout\\view_faculty_list.xml"
     }
 ]

@@ -169,7 +169,6 @@ id label
 id labelA
 id labelAttendance
 id labelAttendancePerStudent
-id labelF
 id left
 id line1
 id line3
@@ -222,6 +221,7 @@ id wrap
 integer cancel_button_image_alpha
 integer status_bar_notification_info_maxnum
 layout __listview_main
+layout __listview_mainfaculty
 layout activity_main
 layout add_attandance
 layout add_student_attendance
@@ -249,7 +249,6 @@ layout test_layout
 layout test_main
 layout view_attendance_list
 layout view_attendance_list_per_student
-layout view_faculty_list
 layout view_student_list
 layout viewstudent
 menu main

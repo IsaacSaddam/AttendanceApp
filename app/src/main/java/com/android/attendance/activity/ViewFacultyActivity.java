@@ -29,19 +29,19 @@ public class  ViewFacultyActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.__listview_mainf);
+		setContentView(R.layout.__listview_mainfaculty);
 
 		listView=(ListView)findViewById(R.id.listview);
 		final ArrayList<String> facultyList = new ArrayList<String>();
 
 		facultyBeanList=dbAdapter.getAllFaculty();
-
+          int i=1;
 		for(FacultyBean facultyBean : facultyBeanList)
 		{
-			String users = " FirstName: " + facultyBean.getFaculty_firstname()+"\nLastname:"+facultyBean.getFaculty_lastname();
+			String users = i+"       " + facultyBean.getFaculty_lastname()+" "+facultyBean.getFaculty_firstname();
 				
 			facultyList.add(users);
-			Log.d("users: ", users); 
+			Log.d("users: ", users); i++;
 
 		}
 
