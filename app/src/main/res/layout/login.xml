@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_margin="50dp"
-
+        android:id="@+id/spinnerloginas"
         android:backgroundTint="#fff"
         android:padding="15dp" />
 
@@ -35,6 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
+        android:id="@+id/editTextusername"
         android:layout_marginRight="50dp"
         android:layout_marginBottom="50dp"
         android:background="#FFFFFF" />
@@ -53,11 +54,14 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
+        android:id="@+id/editTextpassword"
+        android:inputType="textPassword"
         android:background="#FFFFFF" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/buttonlogin"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
