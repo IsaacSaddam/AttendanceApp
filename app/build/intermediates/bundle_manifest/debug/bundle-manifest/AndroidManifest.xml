@@ -13,7 +13,7 @@
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@drawable/appicon"
-        android:label="@string/app_name"
+        android:label="   Attendance"
         android:testOnly="true"
         android:theme="@style/AppBaseTheme" >
         <activity
@@ -28,59 +28,52 @@
         </activity>
         <activity
             android:name="com.android.attendance.activity.LoginActivity"
-            android:label="@string/app_name" >
+            android:label="   Attendance" >
         </activity>
         <activity
             android:name="com.android.attendance.activity.MenuActivity"
-            android:label="@string/app_name" >
+            android:label="   Attendance" >
         </activity>
         <activity
             android:name="com.android.attendance.activity.AddFacultyActivity"
-            android:label="@string/app_name" >
+            android:label="   Attendance" >
         </activity>
         <activity
             android:name="com.android.attendance.activity.AddStudentActivity"
-            android:label="@string/app_name" >
+            android:label="   Attendance" >
         </activity>
         <activity
             android:name="com.android.attendance.activity.ViewFacultyActivity"
-            android:label="@string/app_name" >
+            android:label="   Attendance" >
         </activity>
         <activity
             android:name="com.android.attendance.activity.ViewStudentActivity"
-            android:label="@string/app_name" >
+            android:label="   Attendance" >
         </activity>
         <activity
             android:name="com.android.attendance.activity.TestActivity"
-            android:label="@string/app_name" >
+            android:label="   Attendance" >
         </activity>
         <activity
             android:name="com.android.attendance.activity.ViewStudentByBranchYear"
-            android:label="@string/app_name" >
+            android:label="   Attendance" >
         </activity>
         <activity
             android:name="com.android.attendance.activity.AddAttandanceSessionActivity"
-            android:label="@string/app_name" >
+            android:label="   Attendance" >
         </activity>
         <activity
             android:name="com.android.attendance.activity.AddAttendanceActivity"
-            android:label="@string/app_name" >
+            android:label="   Attendance" >
         </activity>
         <activity
             android:name="com.android.attendance.activity.ViewAttendanceByFacultyActivity"
-            android:label="@string/app_name" >
+            android:label="   Attendance" >
         </activity>
         <activity
             android:name="com.android.attendance.activity.ViewAttendancePerStudentActivity"
-            android:label="@string/app_name" >
+            android:label="   Attendance" >
         </activity>
-
-        <meta-data
-            android:name="android.support.VERSION"
-            android:value="26.1.0" />
-        <meta-data
-            android:name="android.arch.lifecycle.VERSION"
-            android:value="27.0.0-SNAPSHOT" />
     </application>
 
 </manifest>
