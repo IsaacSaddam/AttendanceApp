@@ -36,7 +36,7 @@ public class ViewAttendanceByFacultyActivity extends Activity {
 
 		listView=(ListView)findViewById(R.id.listview);
 		final ArrayList<String> attendanceList = new ArrayList<String>();
-		attendanceList.add("Id | StudentName |  Status");
+		attendanceList.add("Id |						StudentName							|  Status");
 
 		attendanceBeanList=((ApplicationContext)ViewAttendanceByFacultyActivity.this.getApplicationContext()).getAttendanceBeanList();
 
@@ -47,7 +47,8 @@ public class ViewAttendanceByFacultyActivity extends Activity {
 			{
 				DBAdapter dbAdapter = new DBAdapter(ViewAttendanceByFacultyActivity.this);
 				StudentBean studentBean =dbAdapter.getStudentById(attendanceBean.getAttendance_student_id());
-				users = attendanceBean.getAttendance_student_id()+".     "+studentBean.getStudent_firstname()+","+studentBean.getStudent_lastname()+"                  "+attendanceBean.getAttendance_status();
+				String sname=studentBean.getStudent_lastname()+" "+studentBean.getStudent_firstname();
+				users = attendanceBean.getAttendance_student_id()+". "+String.format("%1$25s",sname)+"   "+String.format("%1$15s",attendanceBean.getAttendance_status());
 			}
 			else
 			{

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import android.app.Activity;
 import android.app.Dialog;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
@@ -15,10 +16,12 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.ListView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.RadioGroup.OnCheckedChangeListener;
+import android.widget.Toast;
 
 import com.android.attendance.bean.AttendanceBean;
 import com.android.attendance.bean.StudentBean;
@@ -26,13 +29,16 @@ import com.android.attendance.context.ApplicationContext;
 import com.android.attendance.db.DBAdapter;
 import com.example.androidattendancesystem.R;
 
+import static android.content.ContentValues.TAG;
+
 public class AddAttendanceActivity extends Activity {
 
 	ArrayList<StudentBean> studentBeanList;
-	private ListView listView ;  
+	private ListView listView ;
+	String status="A";
 	private ArrayAdapter<String> listAdapter;
 	int sessionId=0;
-	String status="P";
+
 	Button attendanceSubmit;
 	DBAdapter dbAdapter = new DBAdapter(this);
 	@Override
@@ -60,9 +66,11 @@ public class AddAttendanceActivity extends Activity {
 		}
 
 		listAdapter = new ArrayAdapter<String>(this, R.layout.add_student_attendance, R.id.labelA, studentList);
-		listView.setAdapter( listAdapter ); 
+		listView.setAdapter( listAdapter );
 
-		listView.getChildCount();
+		Log.e(TAG, String.valueOf(listView.getChildCount()));
+
+
 		/*listView.setOnItemClickListener(new OnItemClickListener() {
 
 			@Override
@@ -128,7 +136,34 @@ public class AddAttendanceActivity extends Activity {
 
 	}
 
+	public void submit(View v)
+	{
+		for(int i=0;i<listView.getChildCount();i++)
+		{
+			final StudentBean studentBean = studentBeanList.get(i);
+			CheckBox cb=(CheckBox)listView.getChildAt(i);
+            if(cb.isChecked())
+			{
+				status="P";
+			}
+            else
+			{
+				status="A";
+			}
 
+			AttendanceBean attendanceBean = new AttendanceBean();
+
+						attendanceBean.setAttendance_session_id(sessionId);
+						attendanceBean.setAttendance_student_id(studentBean.getStudent_id());
+						attendanceBean.setAttendance_status(status);
+
+						DBAdapter dbAdapter = new DBAdapter(AddAttendanceActivity.this);
+						dbAdapter.addNewAttendance(attendanceBean);
+			Toast.makeText(getApplicationContext(),"Successfull",Toast.LENGTH_LONG);
+			startActivity(new Intent(AddAttendanceActivity.this,AddAttandanceSessionActivity.class));
+
+		}
+	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {

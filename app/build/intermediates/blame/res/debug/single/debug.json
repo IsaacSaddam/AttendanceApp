@@ -52,6 +52,10 @@
         "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\layout\\addstudent.xml"
     },
     {
+        "merged": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\layout___listview_main_checkbox.xml.flat",
+        "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\layout\\__listview_main_checkbox.xml"
+    },
+    {
         "merged": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_capsule.xml.flat",
         "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\drawable-hdpi\\btn_capsule.xml"
     },
@@ -76,20 +80,20 @@
         "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_test_layout.xml.flat",
         "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\layout\\test_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\layout___listview_main.xml.flat",
-        "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\layout\\__listview_main.xml"
+        "merged": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\layout___listview_mainfaculty.xml.flat",
         "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\layout\\__listview_mainfaculty.xml"
+    },
+    {
+        "merged": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\layout___listview_main.xml.flat",
+        "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\layout\\__listview_main.xml"
     },
     {
         "merged": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_calendar_icon.png.flat",

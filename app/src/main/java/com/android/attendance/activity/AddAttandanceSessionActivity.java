@@ -98,7 +98,7 @@ String subject;
 				// TODO Auto-generated method stub
 				((TextView) arg0.getChildAt(0)).setTextColor(Color.WHITE);
 				year =(String) spinneryear.getSelectedItem();
-				Toast.makeText(getApplicationContext(), "year:"+year, Toast.LENGTH_SHORT).show();
+//				Toast.makeText(getApplicationContext(), "year:"+year, Toast.LENGTH_SHORT).show();
 
 				/*if(year.equalsIgnoreCase("se"))
 				{

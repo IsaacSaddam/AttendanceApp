@@ -7,4 +7,5 @@
     android:padding="10dip"
     android:textColor="#000"
     android:textSize="18sp"
+    android:layout_marginLeft="20dp"
     android:textStyle="bold"></CheckBox>

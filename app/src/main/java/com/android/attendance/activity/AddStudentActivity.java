@@ -32,7 +32,7 @@ public class AddStudentActivity extends Activity {
 	Spinner spinnerbranch,spinneryear;
 	String userrole,branch,year;
 	private String[] branchString = new String[] {"CSE","ECE","ME","CE","EEE"};
-	private String[] yearString = new String[] {"1","2","3","4"};
+	private String[] yearString = new String[] {"4","3","2","1"};
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
