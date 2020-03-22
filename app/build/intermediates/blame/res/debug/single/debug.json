@@ -92,6 +92,10 @@
         "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\layout\\__listview_mainfaculty.xml"
     },
     {
+        "merged": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_appicon.png.flat",
+        "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\drawable-hdpi\\appicon.png"
+    },
+    {
         "merged": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\layout___listview_main.xml.flat",
         "source": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\src\\main\\res\\layout\\__listview_main.xml"
     },
