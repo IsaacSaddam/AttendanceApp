@@ -14,6 +14,7 @@
         android:layout_marginLeft="50dp"
         android:layout_marginTop="75dp"
         android:layout_marginRight="50dp"
+        android:textColor="#000"
         android:background="@drawable/roundedtextview"
         android:text="Add student" />
 
@@ -24,6 +25,7 @@
         android:layout_marginLeft="50dp"
         android:layout_marginTop="25dp"
         android:layout_marginRight="50dp"
+        android:textColor="#000"
         android:background="@drawable/roundedtextview"
         android:text="View student" />
 
@@ -34,6 +36,7 @@
         android:layout_marginLeft="50dp"
         android:layout_marginTop="75dp"
         android:layout_marginRight="50dp"
+        android:textColor="#000"
         android:background="@drawable/roundedtextview"
         android:text="Attendance Per Student" />
 
@@ -44,6 +47,7 @@
         android:layout_marginLeft="50dp"
         android:layout_marginTop="75dp"
         android:layout_marginRight="50dp"
+        android:textColor="#000"
         android:background="@drawable/roundedtextview"
         android:text="View faculty" />
 
@@ -54,6 +58,7 @@
         android:layout_marginLeft="50dp"
         android:layout_marginTop="25dp"
         android:layout_marginRight="50dp"
+        android:textColor="#000"
         android:background="@drawable/roundedtextview"
         android:text="Add faculty" />
 
@@ -64,6 +69,7 @@
         android:layout_marginLeft="50dp"
         android:layout_marginTop="75dp"
         android:layout_marginRight="50dp"
+        android:textColor="#000"
         android:background="@drawable/roundedtextview"
         android:text="Logout" />
 

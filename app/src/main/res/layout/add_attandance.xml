@@ -1,3 +1,6 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -38,7 +41,8 @@
         android:id="@+id/DateEditText"
         android:layout_weight="1.7"
         android:layout_width="0dp"
-        android:padding="10dp"
+        android:padding="8dp"
+        android:textColor="#000"
         android:layout_height="wrap_content"
         android:background="#fff"
         android:editable="false"
@@ -143,7 +147,7 @@
         android:layout_marginTop="122dp"
         android:background="#fff"
         android:layout_marginBottom="20dp"
-
+        android:textColor="#000"
         android:text="Add Attendance" />
 
     <Button
@@ -152,14 +156,27 @@
         android:layout_height="wrap_content"
         android:background="#fff"
         android:layout_marginBottom="20dp"
+        android:textColor="#000"
         android:text="View Total Attendance" />
 
     <Button
         android:id="@+id/viewAttendancebutton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="#000"
         android:layout_marginBottom="35dp"
         android:background="#fff"
         android:text="View Attendance" />
 
+    <Button
+        android:id="@+id/Logbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_marginBottom="80dp"
+        android:onClick="Logout"
+        android:background="#fff"
+        android:text="Logout" />
+
 </LinearLayout>
+</ScrollView>

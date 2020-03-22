@@ -47,7 +47,7 @@
             android:id="@+id/editTextFirstName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textColor="#000"
             android:background="@drawable/roundedtextview"
             android:ems="10"
             android:padding="5dp"
@@ -74,7 +74,7 @@
             android:id="@+id/editTextLastName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textColor="#000"
             android:padding="5dp"
             android:background="@drawable/roundedtextview"
             android:ems="10"
@@ -103,7 +103,7 @@
             android:id="@+id/editTextPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textColor="#000"
             android:background="@drawable/roundedtextview"
             android:ems="10"
             android:layout_marginBottom="15dp"
@@ -133,6 +133,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/roundedtextview"
             android:ems="10"
+            android:textColor="#000"
             android:layout_marginBottom="15dp"
             android:padding="5dp" />
 

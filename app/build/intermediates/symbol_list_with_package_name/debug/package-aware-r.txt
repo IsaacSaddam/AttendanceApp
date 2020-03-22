@@ -68,6 +68,7 @@ drawable roundedtextview
 id AbsentradioButton
 id DateEditText
 id DateImageButton
+id Logbutton
 id PresentradioButton
 id RegisterButton
 id action_settings

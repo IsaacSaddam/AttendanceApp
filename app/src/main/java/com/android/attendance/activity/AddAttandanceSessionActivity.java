@@ -1,7 +1,9 @@
 package com.android.attendance.activity;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Date;
 
 import com.android.attendance.bean.AttendanceBean;
 import com.android.attendance.bean.AttendanceSessionBean;
@@ -43,6 +45,7 @@ public class AddAttandanceSessionActivity<AddAttandanceActivity> extends Activit
 	Button submit;
 	Button viewAttendance;
 	Button viewTotalAttendance;
+
 	Spinner spinnerbranch,spinneryear,spinnerSubject;
 String branch;
 String year;
@@ -155,7 +158,9 @@ String subject;
 
 			}
 		});
+		String dt=day+" / "+(month+1)+" / "+dyear;
 
+          dateEditText.setText(dt);
 		submit=(Button)findViewById(R.id.buttonsubmit);
 		submit.setOnClickListener(new OnClickListener() {
 
@@ -246,5 +251,9 @@ String subject;
 					+ selectedYear);
 		}
 	};
+	public void Logout(View v)
+	{
+		startActivity(new Intent(getApplicationContext(),LoginActivity.class));
+	}
 
 }
