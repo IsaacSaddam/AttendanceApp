@@ -38,7 +38,7 @@ public class AddAttendanceActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.__listview_main);
+		setContentView(R.layout.__listview_main_checkbox);
 
 		sessionId = getIntent().getExtras().getInt("sessionId");
 		

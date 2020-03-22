@@ -31,10 +31,25 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\values-pl_values-pl.arsc.flat",
+            "outputFile": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\values-zh-rHK_values-zh-rHK.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Saddhu\\.gradle\\caches\\transforms-2\\files-2.1\\220c9c180e8e9618ecf7bb8e2f1eddbb\\support-compat-26.1.0\\res\\values-pl\\values-pl.xml",
+                    "source": "C:\\Users\\Saddhu\\.gradle\\caches\\transforms-2\\files-2.1\\220c9c180e8e9618ecf7bb8e2f1eddbb\\support-compat-26.1.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "101",
+                        "endOffsets": "152"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\values-lt_values-lt.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Saddhu\\.gradle\\caches\\transforms-2\\files-2.1\\220c9c180e8e9618ecf7bb8e2f1eddbb\\support-compat-26.1.0\\res\\values-lt\\values-lt.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -61,40 +76,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\values-lt_values-lt.arsc.flat",
+            "outputFile": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\values-pl_values-pl.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Saddhu\\.gradle\\caches\\transforms-2\\files-2.1\\220c9c180e8e9618ecf7bb8e2f1eddbb\\support-compat-26.1.0\\res\\values-lt\\values-lt.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\values-zh-rHK_values-zh-rHK.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Saddhu\\.gradle\\caches\\transforms-2\\files-2.1\\220c9c180e8e9618ecf7bb8e2f1eddbb\\support-compat-26.1.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "101",
-                        "endOffsets": "152"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\values-zu_values-zu.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Saddhu\\.gradle\\caches\\transforms-2\\files-2.1\\220c9c180e8e9618ecf7bb8e2f1eddbb\\support-compat-26.1.0\\res\\values-zu\\values-zu.xml",
+                    "source": "C:\\Users\\Saddhu\\.gradle\\caches\\transforms-2\\files-2.1\\220c9c180e8e9618ecf7bb8e2f1eddbb\\support-compat-26.1.0\\res\\values-pl\\values-pl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -121,10 +106,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\values-sq_values-sq.arsc.flat",
+            "outputFile": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\values-zu_values-zu.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Saddhu\\.gradle\\caches\\transforms-2\\files-2.1\\220c9c180e8e9618ecf7bb8e2f1eddbb\\support-compat-26.1.0\\res\\values-sq\\values-sq.xml",
+                    "source": "C:\\Users\\Saddhu\\.gradle\\caches\\transforms-2\\files-2.1\\220c9c180e8e9618ecf7bb8e2f1eddbb\\support-compat-26.1.0\\res\\values-zu\\values-zu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -140,6 +125,21 @@
             "map": [
                 {
                     "source": "C:\\Users\\Saddhu\\.gradle\\caches\\transforms-2\\files-2.1\\220c9c180e8e9618ecf7bb8e2f1eddbb\\support-compat-26.1.0\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Saddhu\\Desktop\\AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\values-sq_values-sq.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Saddhu\\.gradle\\caches\\transforms-2\\files-2.1\\220c9c180e8e9618ecf7bb8e2f1eddbb\\support-compat-26.1.0\\res\\values-sq\\values-sq.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1367,7 +1367,7 @@
                         "startOffsets": "177",
                         "endLines": "9",
                         "endColumns": "12",
-                        "endOffsets": "358"
+                        "endOffsets": "310"
                     },
                     "to": {
                         "startLines": "2",
@@ -1375,7 +1375,7 @@
                         "startOffsets": "55",
                         "endLines": "5",
                         "endColumns": "12",
-                        "endOffsets": "230"
+                        "endOffsets": "188"
                     }
                 }
             ]

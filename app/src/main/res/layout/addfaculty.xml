@@ -7,8 +7,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
 
         android:orientation="vertical"
         >
@@ -41,9 +41,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:padding="5dp"
-            android:background="@drawable/roundedtextview"
+            android:background="#fff"
             android:ems="10"
-            android:hint="firstname"
+
             android:inputType="textPersonName"
             />
 
@@ -63,9 +63,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:background="@drawable/roundedtextview"
+            android:background="#fff"
             android:ems="10"
-            android:hint="lastname"
             android:inputType="textPersonName"
             android:paddingLeft="15dp" />
 
@@ -84,9 +83,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:padding="5dp"
-            android:background="@drawable/roundedtextview"
+            android:background="#fff"
             android:ems="10"
-            android:hint="phone"
+
             android:inputType="phone"
             android:paddingLeft="15dp" />
 
@@ -105,9 +104,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:padding="5dp"
-            android:background="@drawable/roundedtextview"
+            android:background="#fff"
             android:ems="10"
-            android:hint="address" />
+             />
 
         <TextView
             android:id="@+id/textView1"
@@ -126,9 +125,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
-            android:background="@drawable/roundedtextview"
+            android:background="#fff"
             android:ems="10"
-            android:hint="username"
+
             android:inputType="textPersonName"
             android:paddingLeft="15dp" />
 
@@ -145,9 +144,9 @@
             android:id="@+id/editTextPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/roundedtextview"
+            android:background="#fff"
             android:ems="10"
-            android:hint="password"
+
             android:layout_marginTop="5dp"
             android:padding="5dp"
             android:inputType="textPassword"
@@ -160,10 +159,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="35dp"
             android:padding="5dp"
             android:background="#4fff"
             android:text="Submit"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
             android:textStyle="bold"
             android:textColor="#ffffff" />
 
