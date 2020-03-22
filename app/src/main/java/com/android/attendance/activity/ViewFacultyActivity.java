@@ -74,7 +74,7 @@ public class  ViewFacultyActivity extends Activity {
 						for(FacultyBean facultyBean : facultyBeanList)
 						{
 							String users = " FirstName: " + facultyBean.getFaculty_firstname()+"\nLastname:"+facultyBean.getFaculty_lastname();
-							//facultyList.add(users);
+							facultyList.add(users);
 							Log.d("users: ", users); 
 
 						}
