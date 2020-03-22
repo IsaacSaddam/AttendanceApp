@@ -52,7 +52,7 @@ public class AddAttendanceActivity extends Activity {
 
 		for(StudentBean studentBean : studentBeanList)
 		{
-			String users = studentBean.getStudent_firstname()+","+studentBean.getStudent_lastname();
+			String users = studentBean.getStudent_firstname()+" "+studentBean.getStudent_lastname();
 				
 			studentList.add(users);
 			Log.d("users: ", users); 
@@ -62,7 +62,8 @@ public class AddAttendanceActivity extends Activity {
 		listAdapter = new ArrayAdapter<String>(this, R.layout.add_student_attendance, R.id.labelA, studentList);
 		listView.setAdapter( listAdapter ); 
 
-		listView.setOnItemClickListener(new OnItemClickListener() {
+		listView.getChildCount();
+		/*listView.setOnItemClickListener(new OnItemClickListener() {
 
 			@Override
 			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
@@ -72,54 +73,56 @@ public class AddAttendanceActivity extends Activity {
 				//arg0.setBackgroundColor(234567);
 				arg1.setBackgroundColor(334455);
 				final StudentBean studentBean = studentBeanList.get(arg2);
-				final Dialog dialog = new Dialog(AddAttendanceActivity.this);
-				dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);//...........
-				dialog.setContentView(R.layout.test_layout);
-				// set title and cancelable
-				RadioGroup radioGroup;
-				RadioButton present;
-				RadioButton absent;
-				radioGroup = (RadioGroup) dialog.findViewById(R.id.radioGroup);
-				present=(RadioButton)dialog.findViewById(R.id.PresentradioButton);
-				absent=(RadioButton)dialog.findViewById(R.id.AbsentradioButton);
-				radioGroup.setOnCheckedChangeListener(new OnCheckedChangeListener() {
-
-					@Override
-					public void onCheckedChanged(RadioGroup group, int checkedId) {
-						if(checkedId == R.id.PresentradioButton) {
-							
-							status = "P";
-						} else if(checkedId == R.id.AbsentradioButton) {
-
-							status = "A";
-						} else {
-						}
-					}
-				});
-
-				attendanceSubmit = (Button)dialog.findViewById(R.id.attendanceSubmitButton);
-				attendanceSubmit.setOnClickListener(new OnClickListener() {
-					
-					@Override
-					public void onClick(View arg0) {
-						AttendanceBean attendanceBean = new AttendanceBean();
-						
-						attendanceBean.setAttendance_session_id(sessionId);
-						attendanceBean.setAttendance_student_id(studentBean.getStudent_id());
-						attendanceBean.setAttendance_status(status);
-						
-						DBAdapter dbAdapter = new DBAdapter(AddAttendanceActivity.this);
-						dbAdapter.addNewAttendance(attendanceBean);
-						
-						dialog.dismiss();
-						
-					}
-				});
-				
-				dialog.setCancelable(true);
-				dialog.show();
+//				final Dialog dialog = new Dialog(AddAttendanceActivity.this);
+//				dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);//...........
+//				dialog.setContentView(R.layout.test_layout);
+//				// set title and cancelable
+//				RadioGroup radioGroup;
+//				RadioButton present;
+//				RadioButton absent;
+//				radioGroup = (RadioGroup) dialog.findViewById(R.id.radioGroup);
+//				present=(RadioButton)dialog.findViewById(R.id.PresentradioButton);
+//				absent=(RadioButton)dialog.findViewById(R.id.AbsentradioButton);
+//				radioGroup.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+//
+//					@Override
+//					public void onCheckedChanged(RadioGroup group, int checkedId) {
+//						if(checkedId == R.id.PresentradioButton) {
+//
+//							status = "P";
+//						} else if(checkedId == R.id.AbsentradioButton) {
+//
+//							status = "A";
+//						} else {
+//						}
+//					}
+//				});
+//
+//				attendanceSubmit = (Button)dialog.findViewById(R.id.attendanceSubmitButton);
+//				attendanceSubmit.setOnClickListener(new OnClickListener() {
+//
+//					@Override
+//					public void onClick(View arg0) {
+//						AttendanceBean attendanceBean = new AttendanceBean();
+//
+//						attendanceBean.setAttendance_session_id(sessionId);
+//						attendanceBean.setAttendance_student_id(studentBean.getStudent_id());
+//						attendanceBean.setAttendance_status(status);
+//
+//						DBAdapter dbAdapter = new DBAdapter(AddAttendanceActivity.this);
+//						dbAdapter.addNewAttendance(attendanceBean);
+//
+//						dialog.dismiss();
+//
+//					}
+//				});
+//
+//				dialog.setCancelable(true);
+//				dialog.show();
 			}
 		});
+
+		 */
 
 
 

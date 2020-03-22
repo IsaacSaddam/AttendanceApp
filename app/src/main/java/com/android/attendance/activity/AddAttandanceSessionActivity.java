@@ -48,13 +48,13 @@ String branch;
 String year;
 String subject;
 
-	private String[] branchString = new String[] { "cse"};
-	private String[] yearString = new String[] {"SE","TE","BE"};
-	private String[] subjectSEString = new String[] {"SC","MC"};
-	private String[] subjectTEString = new String[] {"GT","CN"};
-	private String[] subjectBEString = new String[] {"DS","NS"};
+	private String[] branchString = new String[] {"CSE"};
+	private String[] yearString = new String[] {"4"};
+//	private String[] subjectSEString = new String[] {"SC","MC"};
+//	private String[] subjectTEString = new String[] {"GT","CN"};
+//	private String[] subjectBEString = new String[] {"DS","NS"};
 
-	private String[] subjectFinal = new String[] {"M3","DS","M4","CN","M5","NS"};
+	private String[] subjectFinal = new String[] {"ML","MAD","IS","SP","GCC","IIT","CS"};
 	AttendanceSessionBean attendanceSessionBean;
 
 	@Override
